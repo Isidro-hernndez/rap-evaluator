@@ -118,6 +118,7 @@ class ComposerStaticInitb8dfafb96222b354d699779828ef4fd0
         'C' => 
         array (
             'Cron\\' => 5,
+            'Carbon\\' => 7,
         ),
         'B' => 
         array (
@@ -312,6 +313,10 @@ class ComposerStaticInitb8dfafb96222b354d699779828ef4fd0
         array (
             0 => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron',
         ),
+        'Carbon\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
+        ),
         'BeyondCode\\DumpServer\\' => 
         array (
             0 => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src',
@@ -320,10 +325,6 @@ class ComposerStaticInitb8dfafb96222b354d699779828ef4fd0
         array (
             0 => __DIR__ . '/../..' . '/app',
         ),
-    );
-
-    public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/nesbot/carbon/src',
     );
 
     public static $prefixesPsr0 = array (
@@ -388,10 +389,33 @@ class ComposerStaticInitb8dfafb96222b354d699779828ef4fd0
         'BeyondCode\\DumpServer\\Dumper' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/Dumper.php',
         'BeyondCode\\DumpServer\\RequestContextProvider' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/RequestContextProvider.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
+        'Carbon\\CarbonImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonImmutable.php',
+        'Carbon\\CarbonInterface' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterface.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\CarbonPeriod' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonPeriod.php',
+        'Carbon\\CarbonTimeZone' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonTimeZone.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
+        'Carbon\\Factory' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Factory.php',
+        'Carbon\\FactoryImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/FactoryImmutable.php',
+        'Carbon\\Language' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Language.php',
         'Carbon\\Laravel\\ServiceProvider' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php',
+        'Carbon\\Traits\\Boundaries' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Boundaries.php',
+        'Carbon\\Traits\\Comparison' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Comparison.php',
+        'Carbon\\Traits\\Converter' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Converter.php',
+        'Carbon\\Traits\\Creator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Creator.php',
+        'Carbon\\Traits\\Date' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Date.php',
+        'Carbon\\Traits\\Difference' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Difference.php',
+        'Carbon\\Traits\\Localization' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Localization.php',
+        'Carbon\\Traits\\Macro' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Macro.php',
+        'Carbon\\Traits\\Modifiers' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Modifiers.php',
+        'Carbon\\Traits\\Mutability' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Mutability.php',
+        'Carbon\\Traits\\Options' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Options.php',
+        'Carbon\\Traits\\Rounding' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Rounding.php',
+        'Carbon\\Traits\\Serialization' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Serialization.php',
+        'Carbon\\Traits\\Test' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Test.php',
+        'Carbon\\Traits\\Timestamp' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Timestamp.php',
+        'Carbon\\Traits\\Units' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Units.php',
+        'Carbon\\Traits\\Week' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Week.php',
         'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
@@ -1254,6 +1278,7 @@ class ComposerStaticInitb8dfafb96222b354d699779828ef4fd0
         'Illuminate\\Database\\Capsule\\Manager' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Capsule/Manager.php',
         'Illuminate\\Database\\Concerns\\BuildsQueries' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php',
         'Illuminate\\Database\\Concerns\\ManagesTransactions' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Concerns/ManagesTransactions.php',
+        'Illuminate\\Database\\ConfigurationUrlParser' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/ConfigurationUrlParser.php',
         'Illuminate\\Database\\Connection' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Connection.php',
         'Illuminate\\Database\\ConnectionInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/ConnectionInterface.php',
         'Illuminate\\Database\\ConnectionResolver' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/ConnectionResolver.php',
@@ -1367,6 +1392,7 @@ class ComposerStaticInitb8dfafb96222b354d699779828ef4fd0
         'Illuminate\\Database\\Schema\\PostgresBuilder' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Schema/PostgresBuilder.php',
         'Illuminate\\Database\\Schema\\SQLiteBuilder' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Schema/SQLiteBuilder.php',
         'Illuminate\\Database\\Schema\\SqlServerBuilder' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Schema/SqlServerBuilder.php',
+        'Illuminate\\Database\\Schema\\Types\\TinyInteger' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Schema/Types/TinyInteger.php',
         'Illuminate\\Database\\Seeder' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Seeder.php',
         'Illuminate\\Database\\SqlServerConnection' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/SqlServerConnection.php',
         'Illuminate\\Encryption\\Encrypter' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Encryption/Encrypter.php',
@@ -1823,6 +1849,7 @@ class ComposerStaticInitb8dfafb96222b354d699779828ef4fd0
         'Illuminate\\View\\Compilers\\Concerns\\CompilesComponents' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesComponents.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesConditionals' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesConditionals.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesEchos' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesEchos.php',
+        'Illuminate\\View\\Compilers\\Concerns\\CompilesErrors' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesErrors.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesHelpers' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesHelpers.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesIncludes' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesIncludes.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesInjections' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesInjections.php',
@@ -1853,7 +1880,6 @@ class ComposerStaticInitb8dfafb96222b354d699779828ef4fd0
         'JakubOnderka\\PhpConsoleColor\\ConsoleColor' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/ConsoleColor.php',
         'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/InvalidStyleException.php',
         'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src/Highlighter.php',
-        'JsonSerializable' => __DIR__ . '/..' . '/nesbot/carbon/src/JsonSerializable.php',
         'Laravel\\Tinker\\ClassAliasAutoloader' => __DIR__ . '/..' . '/laravel/tinker/src/ClassAliasAutoloader.php',
         'Laravel\\Tinker\\Console\\TinkerCommand' => __DIR__ . '/..' . '/laravel/tinker/src/Console/TinkerCommand.php',
         'Laravel\\Tinker\\TinkerCaster' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerCaster.php',
@@ -3873,7 +3899,6 @@ class ComposerStaticInitb8dfafb96222b354d699779828ef4fd0
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInitb8dfafb96222b354d699779828ef4fd0::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitb8dfafb96222b354d699779828ef4fd0::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInitb8dfafb96222b354d699779828ef4fd0::$fallbackDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInitb8dfafb96222b354d699779828ef4fd0::$prefixesPsr0;
             $loader->classMap = ComposerStaticInitb8dfafb96222b354d699779828ef4fd0::$classMap;
 

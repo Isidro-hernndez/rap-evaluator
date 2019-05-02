@@ -7,11 +7,17 @@
         <title>SPA</title>
 
         <!-- Fonts -->
+        <link rel="stylesheet" href="{{ asset('css/app.css')}}">
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         
     </head>
     <body>
-   
+        <div id="app">
+            <posts>
+
+            </posts>
+        </div>
+        <script src="{{asset('js/app.js')}}"></script>
     </body>
 </html>

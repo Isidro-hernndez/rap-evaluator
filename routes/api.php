@@ -17,4 +17,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('posts', 'PostController@index');
+
+
+Route::group(['middleware' => 'cors'], function(){
+    //aqui van todas las rutas que necesitan CORS
+    Route::get('posts', 'PostController@index');
+}); 
